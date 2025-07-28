@@ -13,7 +13,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body:SingleChildScrollView(
-        child:  Column(
+        scrollDirection: Axis.horizontal,
+        child:  Row(
         mainAxisAlignment:MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
