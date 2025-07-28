@@ -12,16 +12,109 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.blueAccent,
       ),
-      body: Column(
+      body:SingleChildScrollView(
+        child:  Column(
         mainAxisAlignment:MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-           Text('Text', style: TextStyle(
-             fontSize: 30,
-              fontWeight: FontWeight.bold,
-             color: Colors.blueAccent,
-           ),
-           ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.blueAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.purple ,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.tealAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.red,
+          ),
+          ),Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.blueAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.purple ,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.tealAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.red,
+          ),
+          ),Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.blueAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.purple ,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.tealAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.red,
+          ),
+          ),Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.blueAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.purple ,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.tealAccent,
+          ),
+          ),
+          Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.red,
+          ),
+          ),Text('Text', style: TextStyle(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.blueAccent,
+          ),
+          ),
           Text('Text', style: TextStyle(
             fontSize: 30,
             fontWeight: FontWeight.bold,
@@ -40,31 +133,8 @@ class Home extends StatelessWidget {
             color: Colors.red,
           ),
           ),
-          Row(
-            children: [
-              Text('Text', style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                color: Colors.blueAccent,
-              ),
-              ),
-              Text('Text', style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                color: Colors.purple ,
-              ),
-              ),
-              Text('Text', style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                color: Colors.tealAccent,
-              ),
-              ),
-
-            ],
-          )
         ],
-      ),
+      ),)
 
     );
   }
